@@ -29,3 +29,14 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width: 992px){
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr;
+    }   
+
+    .child {
+        display: block;
+    }
+}
