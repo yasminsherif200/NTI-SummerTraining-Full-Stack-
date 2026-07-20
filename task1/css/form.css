@@ -1,0 +1,15 @@
+h1 {
+    width: fit-content;
+    padding: 20px 0;
+    border-bottom: 2px solid red;
+}
+
+main {
+    margin: auto 500px;
+}
+
+.query {
+    display: flex;
+    justify-content: space-between;
+}
+
